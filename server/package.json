@@ -1,0 +1,12 @@
+{
+  "name": "bolao-dos-vei-server",
+  "version": "1.0.0",
+  "description": "Servidor leve de sincronização de salas por código para o app Bolão dos Véi",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

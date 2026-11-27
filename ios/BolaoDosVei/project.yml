@@ -1,0 +1,35 @@
+name: BolaoDosVei
+options:
+  bundleIdPrefix: com.bolaodosvei
+  deploymentTarget:
+    iOS: "16.0"
+  xcodeVersion: "16.0"
+  createIntermediateGroups: true
+
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    MARKETING_VERSION: "2.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+    TARGETED_DEVICE_FAMILY: "1"
+    SUPPORTS_MACCATALYST: NO
+    GENERATE_INFOPLIST_FILE: YES
+
+targets:
+  BolaoDosVei:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: Sources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.bolaodosvei.app
+        PRODUCT_NAME: BolaoDosVei
+        INFOPLIST_KEY_CFBundleDisplayName: "Bolão dos Véi"
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: "UIInterfaceOrientationPortrait"
+        INFOPLIST_KEY_NSPhotoLibraryUsageDescription: "Escolha uma foto da galeria para o seu perfil no Bolão dos Véi."
+        INFOPLIST_KEY_UIUserInterfaceStyle: Dark
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor

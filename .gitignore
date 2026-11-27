@@ -1,0 +1,13 @@
+.gradle/
+.kotlin/
+build/
+app/build/
+local.properties
+*.apk
+server/salas_db.json
+server/salas_db.json.tmp
+ios/BolaoDosVei/build/
+ios/BolaoDosVei/*.xcodeproj/
+ios/BolaoDosVei/*.ipa
+.DS_Store
+Thumbs.db
