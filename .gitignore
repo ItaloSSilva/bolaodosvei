@@ -4,6 +4,7 @@ build/
 app/build/
 local.properties
 *.apk
+*.ipa
 server/salas_db.json
 server/salas_db.json.tmp
 ios/BolaoDosVei/build/
